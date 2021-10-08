@@ -15,6 +15,13 @@ public class App {
 		
 		//Using the system to print out the complete name along with a greeting and introduction!
 		System.out.println("Hi, my full name is " + fullName + '!');
+		
+		int age = 34;
+		double friends = 51;
+		double friendsPerYear = (friends/age);
+		
+		System.out.println("I am " + age + " years old, and have made " + friendsPerYear + " friends each year I've lived.");
+		
 	}
 
 }
